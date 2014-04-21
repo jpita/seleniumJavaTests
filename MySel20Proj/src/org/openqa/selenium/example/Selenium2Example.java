@@ -24,7 +24,6 @@ public class Selenium2Example  {
 
         // Enter something to search for
         element.sendKeys("Cheese!");
-
         // Now submit the form. WebDriver will find the form for us from the element
         element.submit();
 

@@ -9,8 +9,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class IExplorer {
 	public static void main(String args[]) {
 		try {
-	
-	        System.setProperty("webdriver.ie.driver", "C:\\selenium\\iedriver\\IEDriverServer.exe");
+			//check the location to see if the file really exists
+	        System.setProperty("webdriver.ie.driver", "../MySel20Proj/iedriver/IEDriverServer32.exe");
 	        
 	        DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 	        ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
