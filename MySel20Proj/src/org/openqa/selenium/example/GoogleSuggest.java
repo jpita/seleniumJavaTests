@@ -38,6 +38,15 @@ public class GoogleSuggest {
 		}
         
         //driver.quit();
+        //get all the "option" options of a "select" element
+        driver.get("https://code.google.com/p/selenium/wiki/NextSteps");
+        WebElement select = driver.findElement(By.xpath("//select"));
+        List<WebElement> allOptions = select.findElements(By.tagName("option"));
+        for (WebElement option : allOptions) {
+            System.out.println(String.format("Value is: %s", option.getAttribute("value")));
+            System.out.println(String.format("Text is: %s", option.getAttribute("text")));
+            option.click();
+        }
 	}
 
 }
