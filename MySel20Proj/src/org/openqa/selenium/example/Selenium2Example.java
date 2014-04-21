@@ -1,6 +1,7 @@
 package org.openqa.selenium.example;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -23,7 +24,7 @@ public class Selenium2Example  {
         WebElement element = driver.findElement(By.name("q"));
 
         // Enter something to search for
-        element.sendKeys("Cheese!");
+        element.sendKeys("Cheese!", Keys.ENTER);
         // Now submit the form. WebDriver will find the form for us from the element
         element.submit();
 
