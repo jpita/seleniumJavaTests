@@ -1,10 +1,10 @@
 seleniumJavaTests
 =================
 
-seleniumTests
+Following the selenium webdriver tutorial.
 
-Following the selenium tutorial with eclipse
+Working with Java in Eclipse.
 
-Part 1 "Getting Started" Done :)
+Part 1 [Getting Started](https://code.google.com/p/selenium/wiki/GettingStarted) Done :)
 
-Part 2 "Next Steps" beggining.
+Part 2 [Next Steps](https://code.google.com/p/selenium/wiki/NextSteps) beggining.
